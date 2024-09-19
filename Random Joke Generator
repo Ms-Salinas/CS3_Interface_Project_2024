@@ -1,0 +1,15 @@
+//This is utility that gets the Random function from java
+/** @author Casey Martinez
+ Version 1*/
+import java.util.Random;
+public class JokeGenerator {
+    public static void main(String[] args) {
+        //This is an array that contains a list of jokes.
+      String[] jokes = {"Why dont skeletons fight one another? They dont have the guts", "What do Italians call fake spaghetti? An impasta!","How do penguins build a house? It Igloo's it togther?", "What did the dryer say to the washing machine? Im feeling alittle dry-here.", "What do you call a pile of cats? A Meowtain!", "How do you orgainize a space party? You planet.", "I went to the aquarium this weekend, but I didn't stay long. Theres something fishy about this place."};
+      // This is the generator, it gets a random index for the jokes array
+      Random ran = new Random();
+      int i = ran.nextInt(jokes.length);
+      //This is the print statement that prints out the random joke.
+      System.out.println(jokes[i]);
+    }
+}
