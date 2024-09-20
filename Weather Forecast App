@@ -1,8 +1,14 @@
 public interface City {
+    // Initialize and delcare
     String cityName = "";
     float celsius = 0.0f;
 
+    // Converts celcius to fahrenheit
     public float getFahrenheit();
+
+    // Returns with the celsius
     public float getCelsius();
+
+    // Prints to the console what the weather is like
     public void printWeatherDescription();
 }
