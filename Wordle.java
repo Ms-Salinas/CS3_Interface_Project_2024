@@ -4,7 +4,6 @@ The Wordle interface
 */
 
 interface Wordle {
-    int TURNS = 5;
     abstract String getWord();
     abstract String getAnswer();
     abstract void setWord(String newWord);
