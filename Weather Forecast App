@@ -1,29 +1,8 @@
-import javax.swing.*;
-import java.awt.*;
+public interface City {
+    String cityName = "";
+    float celsius = 0.0f;
 
-public class Main {
-
-    float degrees = 0.0f;
-
-    public static void main(String[] args) {
-        // Initialize frame and set properties
-        JFrame frame = new JFrame();
-
-        // Have close button stop the code
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-        // Add title
-        addLabel(frame, "Weather Forecast App", FlowLayout.LEFT);
-
-        // Set window properties
-        frame.setTitle("Weather Forecast App");
-        frame.setSize(360, 640);
-        frame.setVisible(true);
-    }
-
-    public static void addLabel(JFrame frame, String text, int alignment) {
-        frame.setLayout(new FlowLayout(alignment));
-        frame.add(new JLabel(text));
-        frame.pack();
-    }
+    public float getFahrenheit();
+    public float getCelsius();
+    public void printWeatherDescription();
 }
