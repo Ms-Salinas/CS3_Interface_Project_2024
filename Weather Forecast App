@@ -11,4 +11,7 @@ public interface City {
 
     // Prints to the console what the weather is like
     public void printWeatherDescription();
+
+    // Prints chance of weather
+    public void printChanceForWeather();
 }
