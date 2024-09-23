@@ -1,7 +1,7 @@
 /** @author Casey Martinez */
 interface JokeGenerator {
-    String[] Jokes = {};
-    void ranGenerator(); // used to make a the jokes random
+    String[] Jokes = {}; //contains the jokes
+    void ranGenerator(); // used to make the jokes random
     
     String tellNameJoke(); //Returns a joke with a name in it 
 }
