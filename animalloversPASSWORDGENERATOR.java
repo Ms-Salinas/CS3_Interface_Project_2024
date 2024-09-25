@@ -45,7 +45,6 @@ public class AnimalLovers implements PasswordGenerator{
         while(pass.length() < length){
             int rand3 = (int)((Math.random()* 9));
             pass += rand3;
-            System.out.println(pass.length());
         }
         
         
