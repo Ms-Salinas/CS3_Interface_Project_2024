@@ -1,0 +1,21 @@
+// Subclass of Interface FitnessTracker
+public Walking(int time, double distance){
+        //sets the time and distance
+        this.time = time;
+        this.distance = distance;
+    }
+   //method returning the amount of time spent times the avg calories burned a min to calculate avg calories lost
+    public double caloriesBurned(){
+        return time * 4;
+        
+    }
+    //method returning the amount of time spent doing an actvity
+    public int amountOfTime(){
+        return time;
+    }
+    //method returning the distance covered during the activty 
+    public double distanceWalked(){
+        return distance;
+    }
+}
+
