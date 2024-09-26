@@ -1,4 +1,10 @@
 // Subclass of Interface FitnessTracker
+
+class Walking implements FitnessTracker {
+
+    private int time;
+    private double distance;
+
 public Walking(int time, double distance){
         //sets the time and distance
         this.time = time;
