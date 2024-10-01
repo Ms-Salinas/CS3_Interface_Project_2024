@@ -1,5 +1,6 @@
 /**
  * Class to convert seconds, minutes, and hours to each other
+ * @author        Ariana Adame
  */
 
 class convertTime extends UnitConverter {
